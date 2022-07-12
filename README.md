@@ -1,2 +1,2 @@
 # Rasalan
-Latihan untuk Dicoding
+Food website for dicoding assignment
