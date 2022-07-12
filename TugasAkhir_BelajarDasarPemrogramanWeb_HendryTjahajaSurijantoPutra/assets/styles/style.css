@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@media  screen and (max-width: 800px) {
+    .flex-container,.flex-column,.box,aside,#content {
+      width: 100%;
+      padding: 0;
+      flex-direction: column;
+    }
+  }
+  
+*{
+   box-sizing: border-box;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+ }
+ header {
+   display: inline;
+}
+ nav {
+    background-color: #3a3838;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+ }
+ nav a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: orange;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 1px rgb(43, 42, 42);
+ }
+ nav a:hover {
+   font-weight: bold;
+}
+ .jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #ffae00;
+    text-align: center;
+    color: white;
+ }
+ .food-image {
+    width: 20%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ 
+ .google-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding-bottom: 0;
+ }
+ 
+ h2{
+    font-family: 'Akaya Telivigala', cursive;
+    color: antiquewhite;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 2px black;
+ }
+ p{
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+    font-size: 30px;
+    text-shadow: -1px -1px black;
+ }
+ .judul_home{
+     font-size: 28px;
+     color: #ffae00;
+     font-family: 'Ubuntu', sans-serif;
+ }
+ .isi_home{
+    font-size: 18px;
+    color: black;
+    text-shadow: 1px 1px whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+.download_home{
+    font-size: 18px;
+    color: black;
+    text-shadow: 1px 1px whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 0px;
+}
+
+.flex-container {
+    display: flex;
+    
+  }
+  
+  .flex-item-left {
+    padding: 50px;
+    padding-left: 120px;
+    flex: 50%;
+    background-color: rgb(243, 226, 207);
+    padding-bottom: 0;
+  }
+  
+  .flex-item-right {
+    padding: 20px;
+    flex: 50%;
+    background-color: rgb(243, 226, 207);
+    padding-bottom: 0;
+  }
+
+ .pesan{
+    width: 40%;
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+ }
+ .chat{
+   width: 40%;
+   padding-top: 5px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   object-fit: cover;
+}
+.deal{
+   width: 40%;
+   padding-top: 5px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   object-fit: cover;
+}
+.checkin{
+   width: 40%;
+   padding-top: 5px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 10px;
+   object-fit: cover;
+}
+
+ .box {
+   flex-grow: 2;
+   margin: 5px;
+   flex: 10%;
+   border: 5px solid black;
+   border-radius: 10px;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.flex-row {
+   display: flex;
+   flex-direction: row;
+   flex-grow: 1;
+   padding: 20px;
+   margin: 5px;
+   border-radius: 10px;
+   
+}
+.flex-column {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   background-color: rgb(243, 226, 207);
+   
+}
+.judul_fitur{
+   font-size: 32px;
+   color: #ff5e00;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 0;
+   text-shadow: 1px 1px aquamarine;
+   text-align: center;
+}
+
+.judul_pesan{
+   font-size: 20px;
+   color: #ff5e00;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 0;
+   text-shadow: 1px 1px aquamarine;
+}
+.isi_pesan{
+  font-size: 16px;
+  color: black;
+  text-shadow: 1px 1px whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.judul_chat{
+   font-size: 20px;
+   color: #ff5e00;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 0;
+   text-shadow: 1px 1px aquamarine;
+}
+.isi_chat{
+  font-size: 16px;
+  color: black;
+  text-shadow: 1px 1px whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.judul_deal{
+   font-size: 20px;
+   color: #ff5e00;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 0;
+   text-shadow: 1px 1px aquamarine;
+}
+.isi_deal{
+  font-size: 16px;
+  color: black;
+  text-shadow: 1px 1px whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.judul_checkin{
+   font-size: 20px;
+   color: #ff5e00;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 0;
+   text-shadow: 1px 1px aquamarine;
+}
+.isi_checkin{
+  font-size: 16px;
+  color: black;
+  text-shadow: 1px 1px whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.profile header {
+   text-align: center;
+}
+.profile img {
+   width: 200px;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   margin-right: 30px;
+   background-color: #3a3838;
+   
+}
+#content {
+   float: left;
+   flex-grow: 2;
+}
+aside {
+   float: right;
+   flex-grow: 1;
+}
+main {
+   overflow: auto;
+}
+
+body{
+   background-color: rgb(243, 226, 207);
+}
+#App{
+   font-size: 28px;
+   color: #ff5e00;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 0;
+   text-shadow: 1px 1px aquamarine;
+   padding-left: 40px;
+}
+.isi_app{
+   font-size: 20px;
+   color: #1f2205ad;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 0;
+   text-shadow: 1px 1px rgb(248, 244, 244);
+   text-align: justify;
+   padding-right: 20px;
+   padding-left: 40px;
+ }
+
+ footer {
+   background-color: #535151;
+   padding: 20px;
+   margin-top: 30px;
+   
+}
+.isi_footer{
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 16px;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}
+.info{
+   text-align: center;
+   color: white;
+   font-family: 'Merriweather', serif;
+}
+table{
+   padding-left: 50px;
+   text-align: left;
+   color: white;
+   font-family: 'Akaya Telivigala', cursive;
+}
+th{
+   padding-right: 10px;
+}
+
+.judul_biodata{
+   font-size: 28px;
+   color: #ff5e00;
+   font-family: 'Merriweather', serif;
+   font-weight: 900;
+   margin-bottom: 10px;
+   margin-top: 0;
+
+}
+.image_profile{
+   border-radius: 50%;
+   background-color: #ff5e00;
+   width: 50%;
+}
+.nama_biodata{
+   font-size: 18px;
+   color: #ff5e00;
+   font-family: 'Merriweather', serif;
+   font-weight: 200;
+   margin: 0;
+   padding: 0;
+}
+.dropbtn {
+   background-color: rgb(255, 115, 0);
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .dropbtn:hover, .dropbtn:focus {
+   background-color: rgb(233, 159, 22);
+ }
+ 
+ .dropdown {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #3a3838;
+   min-width: 160px;
+   overflow: auto;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ .dropdown a:hover {background-color: #ddd;}
+ 
+ .show {display: block;}
+ .center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 32px;
+ }
+ button{
+    margin-top: 5px;
+ }
+ .contact_content{
+    color: white;
+    font-size: 18px;
+ }
+
+
